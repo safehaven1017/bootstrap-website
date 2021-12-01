@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(226, 176, 39) !important;
+    background-image: url(https://www.fte.org/wp-content/uploads/yale-logo.png);
+    background-size: 60vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    box-shadow: .1vw .01vw 1vw .01vw rgb(0, 0, 0);
+    background-color: orange;
+}
+
+.nav.flex-column {
+    width: 15vw;
+    height: 30vw;
+    margin-top: 1.3vw;
+    margin-left: 1vw;
+    margin-right: 3vw;
+}
+
+span.title {
+    background-color: orange;
+    box-shadow: .01vw .01vw .3vw .01vw rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+#left-bar {
+    border-right-style: solid;
+    border-width: 1px;
+    margin: 2vw;
+    font-size: .9vw;
+    margin-right: 3vw;
+}
+
+header {
+    margin-top: 2vw;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-bottom: 3vw;
+}
+
+#mid-content {
+    margin-top: 2vw;
+    margin-right: 2vw;
+    height: 45vw;
+    font-size: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 166, 0, 0.493);
+}
+
+.container {
+    display: flex;
+}
+
+.left-content {
+    width: 20vw;
+    background-color: orange;
+    margin-bottom: 5vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background-image: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0), 
+        rgba(226, 176, 39)
+        100%);
+}
+
+.events {
+  color: black;  
+}
+
+#Jessi {
+    width: 65vw;
+    border-radius: 30px;
+    margin: 2vw;
+    border-style: solid;
+    border-color: black;
+    box-shadow: .1vw .1vw 1vw .01vw black;
+    border-width: 1px;
+}
+
+.d-flex.wide-card {
+    width: 65vw;
+    height: 30vw;
+    border-radius: 1vw;
+    background-color: rgb(255, 165, 0);
+    overflow: hidden;
+    margin: 2vw;
+    box-shadow: .1vw .1vw 1vw .01vw black;
+}
+
+.description-section {
+    background-color: orange;
+    flex: inherit;
+    font-size: 2vw;
+    border-radius: 10vw;
+    margin: 1vw;
+    color: black;
+}
+
+.description-section.section {
+    font-size: 1vw;
+}
